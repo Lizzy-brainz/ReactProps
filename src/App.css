@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar {
+  position: absolute;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #fff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+max-width: 100%;
+position: absolute;
+width: 100%;
+height: 70px;
+left: 0px;
+top: 0px;
+display: flex;
+justify-content: space-between;
+padding: 0 0 0 40px;
+}
+li {
+  list-style: none;
+}
+.hero--heading,
+.hero--text {
+  font-family: Poppins;
+  margin-top: 50px;
+  font-style: normal;
+  line-height: 110%;
+  position: absolute;
+  left: 76px;
+  padding-block: 10px;
+}
+.hero--heading {
+  font-weight: 600;
+  font-size: 45px;
+  width: 547px;
+  height: 40px;
+  top: 500px;
+}
+.hero--text {
+  width: 520px;
+  height: 56px;
+  top: 565px;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+.hero--image{
+   text-align: center;
+   margin-top: 40px;
+}
+.hero--img{
+    width: 50rem;
+    height: auto;
+}
+.wrap{        
+    position: relative;
+    padding: 0 40px;
+    
+}
+.bold{
+    font-weight: 700;
+}
+.star{
+    margin-right: 10px;
+}
+.gray{
+    color: #918E9B;
+}
+.text{
+    color: #222222;
+    font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
+.card--image{
+    width: 20rem;
+    height: auto;
+    margin-top: 10rem;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card--wrapper{
+    background-color: #fff;
+    color: #000000;
+    font-size: 20px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.card--list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
